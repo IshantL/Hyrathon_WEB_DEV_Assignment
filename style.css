@@ -1,0 +1,16 @@
+h1{
+    align-items: center;
+    font-size: 24px;
+    color: blue;
+}
+p{
+   font-style: italic;
+   color: cadetblue;
+ background-color: aliceblue;
+}
+form{
+    background-color: aqua;
+    padding: 25px;
+    margin:50px ;
+
+}
