@@ -1,0 +1,62 @@
+
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+margin: 50px;
+background: #efefef;
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+.container .left_side{
+    position: relative;
+    background: #003100;
+    padding: 40px;
+}
+.ProfileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.contactinfo{
+    color: white;
+
+}
+.contactinfo.Education{
+    color: white;
+}
+.title{
+    color: aquamarine;
+}
+
+
+
+
+
+.ProfileText h1{
+    color: #efefef;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+
+
+
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.right_side .profile{
+    color:brown
+}
