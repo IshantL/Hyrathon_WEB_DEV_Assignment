@@ -1,0 +1,53 @@
+.body{
+    
+}
+
+
+
+.a p{
+    color: black;
+}
+.b p{
+    color:black;
+    
+}
+.resume h1{
+    color:black;
+    background-color: bisque;
+    align-items: center;
+}
+.resume p{
+    color: black;
+}
+.b h1{
+    background-color: bisque;
+}
+.a h1{
+    background-color: bisque;
+}
+.c h1{
+    color:black;
+    background-color: bisque;
+}
+.c p{
+    color:black;
+
+}
+.d h1{
+    background-color: bisque;
+}
+.e h1{
+    color: black;
+    background-color: bisque;
+    margin-bottom: 5px;
+    
+}
+.f h1{
+    color:black;
+    background-color: bisque;
+}
+.g h1{
+    color: black;
+    background-color: bisque;
+    align-items: center;
+}
