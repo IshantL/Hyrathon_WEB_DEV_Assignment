@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*NAVBAR*/
+.navbar{
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: rgb(0, 0, 0,0.5); 
+  position: sticky;
+  top: 0;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white ;
+}
+/*HOME SECTION*/
+#home{
+    background-image: url(https://cdn.create.vista.com/api/media/small/461307390/stock-photo-creative-prismatic-background-polygonal-pattern);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: black;
+}
+/* #home::before{
+    content: "";
+    position: absolute;
+    top:0;
+    right:0;
+    background-image: url(https://cdn.create.vista.com/api/media/small/461307390/stock-photo-creative-prismatic-background-polygonal-pattern);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+} */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px 40px;
+}
+.btn{
+    padding:10px 35px;
+    background-color: transparent;
+    border:1px solid black;
+    color: blue;
+    outline:none;
+    transition:.6s ease;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: black;
+    color: aqua;
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0),0 0 15px black;
+    font-weight: bold;
+}
+h3{
+    padding-top: 5px;
+}
+.image1{
+    float: left;
+    left: 100%; 
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 150px;
+    border-left-width: 20px solid pink;
+    border-radius: 35%;
+    box-shadow: 10px lavenderblush;
+}
+/*ABOUT SECTION*/
+#about{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.heading1{
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.para{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+}
+/*skills known*/
+#section3{ 
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    background-color:rgb(244, 241, 237);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading3{
+    color:black;
+    font-size: 35px;
+}
+.logo{
+    display: inline-block;
+    margin-right: 60px;
+    padding-left: 10px;
+}
+.logo1{
+    display: block;
+}
+/* conact me  */
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background:#e6d3b9;
+}
+#section4::before{
+    content:'';
+    position: absolute;
+    left: 1vh;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(0, 0, 0);
+}
+.contanier{
+    position:relative;
+    min-width: 850px;
+    min-height: 425px;
+    display:flex;
+    z-index: 500px;
+    
+
+}
+.contanier .contactinfo
+{
+    position:absolute;
+    width: 350px;
+    height: 377px;
+    background-color:#e6d3b9;
+    margin-top: 24px;
+    z-index: 1;
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0, 0, 0.15);
+}
+.contanier .contactinfo h2{
+    color: black;
+    font-size: 25px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+.contanier .contactinfo a{
+    font-size: 15px;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    padding: 5px  5px;
+}
+.contanier .contactform{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 150px;
+    height: 100%;
+    min-width: 90%;
+    background-color: #fff;
+    background: 0 50px 50px rgba(0,0,0,0.25);
+}
+.contanier .contactform h2{
+    color: #e6d3b9;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contanier .contactform .formbox{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.contanier .contactform .formbox .inputbox{
+    position:relative;
+    margin-top: 35px;
+}
+.contanier .contactform .formbox .inputbox.w50{
+    width:47%;
+}
+.contanier .contactform .formbox .inputbox input{
+    width:100%;
+    resize:none;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color:#333;
+    border:none;
+    outline:none;
+    border-bottom:1px solid #777 ;
+}
+.contanier .contactform .formbox .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.contanier .contactform .formbox .inputbox input:focus ~ span,
+.contanier .contactform .formbox .inputbox input:valid ~ span
+{
+    transform:translateY(-20px);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color:black;
+    font-weight: 500;   
+}
+.contanier .contactform .formbox .inputbox input[type="submit"]{
+    position:relative;
+    cursor:pointer;
+    background-color:#e4bb80;
+    color:black;
+    max-width:150px;
+    padding:10px;
+}
+.contanier .contactform .formbox .inputbox input[type="submit"]:hover{
+background-color: black;
+color: #e4bb80;    
+}
+/* making contact me section reponsive*/
+/* @media(max-width:1200px)
+{
+    .contanier
+    {
+        width: 90px;
+        min-width: auto;
+        margin:20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2) ;
+    }
+    .contactinfo{
+        top:0;
+        height:500px;
+        position:relative;
+        box-shadow:none;
+    }
+    .container.contactform{
+        position: relative;
+        width:calc(100%-350px);
+        padding-left:0;
+        margin-left: 0;
+        padding:40px;
+        height:550px;
+        box-shadow:none;
+    }
+} */
+/* @media(max-width:991px)
+{
+    section{
+        background:#fff38e;
+    }
+    section::before
+    {
+        display:none;
+    }
+    .container{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .container.contactform{
+        width:100%;
+        height:auto;
+    }
+    .container.contactinfo{
+        width:100%;
+        height: auto;
+        flex-direction: row;
+
+
+    }
+
+    }
+ */
