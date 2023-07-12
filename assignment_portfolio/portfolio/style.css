@@ -1,0 +1,107 @@
+
+/* this is first part*/
+.fp{
+    background-color: rgb(41, 160, 160);
+    padding: 20px;
+    line-height: 100%;
+    color: beige;
+    margin: auto;
+    bac
+    
+}
+ .intro{
+    font-size: 30px;
+    text-align: center;
+ }
+ .prerna{
+    font-size: 50px;
+    text-align: center;
+ }
+ .middle{
+    text-align: center;
+    font-size: 30px;
+ }
+.first {  
+    color: beige;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    text-align: right;
+    
+
+
+}
+ a.link:hover 
+ {
+    color: aliceblue;
+ }
+
+.first li{
+   
+    display: inline-block;
+    margin: 20px;
+}
+img{
+    width: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+p{
+    text-align: center;
+    font-size: 18px;
+
+}
+/* this is second part*/
+h3{
+    text-align: center;
+}
+.sp{
+    padding: 22px;
+}
+/*this is third part*/
+.tp{
+    text-align: center;
+    background-color:   rgb(189, 255, 189);
+}
+section img{
+    width: 60px;
+    border-radius: 0px;
+}
+section{
+    display:grid;
+    align-items: center;
+    background-color:  rgb(189, 255, 189);
+}
+h2{
+    background-color: rgb(189, 255, 189);
+    color: rgb(28, 5, 5);
+}
+table{
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border-spacing: 10px;
+}
+.sp{
+    background-color: white;
+    color: rgb(28, 5, 5);
+
+}
+.last{
+
+    background-color: white;
+ }
+ .fourth{
+    display: inline-block;
+    margin: 20px;
+ }
+ li{
+    display: inline-block;
+    margin: 20px;
+ }
+  
